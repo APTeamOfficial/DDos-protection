@@ -25,6 +25,7 @@ with this mod, you will import **ADP.php** in your php scripts and will check fo
 - create new database and import db_example.sql into it
 - change DB_NAME, DB_PASSWORD, DB_HOST and DB_DATABASE in **config.php** acording to your database information
 - replace SCRIPT_PATH with path where script exists (ADP.php)
+- change EXPIRE_TIME with your custom authenication timeout (in secconds)(after this time, client cookie will be burned and reauthnication needed)
 - thats it, your website is secure now :)
 
 
