@@ -2,4 +2,4 @@ RewriteEngine On
 
 RewriteCond %{REQUEST_URI} !adp
 RewriteCond %{HTTP_COOKIE} !adp_token=[^;]+ [NC]
-RewriteRule .* https://c-cracking.org/adp.php?ref=https://c-cracking.org/$0 [R=301,L]
+RewriteRule .* https://example.com/adp.php?ref=https://example.com/$0 [R=301,L]
