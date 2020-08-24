@@ -1,44 +1,32 @@
-# Movie-Tools
-Windows software to find,sort and categorize your movies/series files
+# DDos Protection
+simple **ddos protection** library to make your website paths secure
 
-![movie agent image](finder.png)
-![movie finder image](agent.png)
+## How it works ?
+this script will verify users by **Google Recaptcha v3** and will authenicate them if everything goes right
 
-## What can i do with this ? 
-with this software, you will be able to copy all your **movie/series** files, 
-whenever you plug any removeable device
-you can also sort **all** supported files in your computer, with just click one button in Movie finder section
+## How to use ?
 
-Series input | Series output
------------- | ------------
-breaking-bad-s01e02-720p.mkv | series\breaking bad\s01\e02-720p.mkv
+you can use this script in two diffrent ways
 
-Movie input | Movie output
------------- | ------------
-tanet-2020-720p.mp4 | other\720p\tanet-2020-720p.mp4
+- all redir
+- script redir
 
-## Abilities
-- detecting removeable devices with 5s delay
-- detecting all supported format files, in a short time
-- smart regex algorithm
-- auto add to startup 
-- easy to use GUI
-- etc ...
+## All redir
+with this mod, you will redirect everything to **ADP.php** script and after a successful authenication, user will get what he/she looks for
+you can do this using htaccess example
 
-## Dependancies
-- .Net framework +4.5
-- +512mb memory
+## Script redir
+with this mod, you will import **ADP.php** in your php scripts and will check for authenication, if everything goes well, you can show reall content
 
-## Testing result
-- USB => success
-- External Hardware => success
-- CD => success
+## How to start using this ?
+- register your domain to recaptcha v3 
+- copy/paste your **SITEKY** and **PRIVATE KEY** in **config.php**
+- do one of supported mods (all redir, script redir)
+- create new database and import db_example.sql into it
+- change DB_NAME, DB_PASSWORD, DB_HOST and DB_DATABASE in **config.php** acording to your database information
+- replace SCRIPT_PATH with path where script exists (ADP.php)
+- thats it, your website is secure now :)
 
-## Supported formats
-- mp4
-- mkv
-- flv
-- avi
 
 ### support / suggestion = ph09nixom@gmail.com - t.me/ph09nix
 ### Leave a STAR if you found this usefull :)
