@@ -1,7 +1,7 @@
 <?php
 {
-    define("SITE_KEY", "6LcACsIZAAAAAGFRbfzGN_O6eKmXaJpGQX8bDcvc");
-    define("SECRET_KEY", "6LcACsIZAAAAALjRgsVAT5UCxdqI1qN0qE3AUafB");
+    define("SITE_KEY", "");
+    define("SECRET_KEY", "");
     define("EXPIRE_TIME", 25);
     define("DB_HOST", "localhost");
     define("DB_USER", "root");
